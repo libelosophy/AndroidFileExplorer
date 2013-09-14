@@ -107,7 +107,7 @@ public class MainActivity extends Activity {
 		adapter = new SimpleAdapter(
 						this, 
 						data, 
-						R.layout.file_list_item_3, 
+						R.layout.file_list_item_4, 
 						new String[]{
 								ICON,
 								FILENAME,

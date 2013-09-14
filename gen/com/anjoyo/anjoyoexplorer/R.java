@@ -38,8 +38,9 @@ public final class R {
         public static final int zip_icon=0x7f02000e;
     }
     public static final class id {
-        public static final int action_settings=0x7f080006;
+        public static final int action_settings=0x7f080007;
         public static final int fileAttrTv=0x7f080005;
+        public static final int fileCb=0x7f080006;
         public static final int fileIconIv=0x7f080003;
         public static final int fileLv=0x7f080002;
         public static final int fileNameTv=0x7f080004;
@@ -49,7 +50,7 @@ public final class R {
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_my_explorer=0x7f030001;
-        public static final int file_list_item_3=0x7f030002;
+        public static final int file_list_item_4=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;

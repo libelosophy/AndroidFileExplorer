@@ -20,7 +20,7 @@ import android.widget.Toast;
 public class MyExplorer extends Activity {
 	private static final String TAG = "MyExplorer";
 
-	private static final int RESOURCE_LAYOUT = R.layout.file_list_item_3;
+	private static final int RESOURCE_LAYOUT = R.layout.file_list_item_4;
 	private static final String ICON = "icon", FILENAME = "filename",
 			ATTR = "attribute";
 	private static final String[] FROM = { ICON, FILENAME, ATTR };
