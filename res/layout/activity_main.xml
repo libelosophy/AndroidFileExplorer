@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+	<LinearLayout 
+	    android:id="@+id/topLl"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:src="@drawable/file_manager_r"
+	        />
+	    <TextView
+	        android:id="@+id/pathTv"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:text="/"
+	        android:layout_weight="1"
+	        android:gravity="left|center_vertical"
+	        android:textSize="16sp"
+	        android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+	<ListView
+	    android:id="@+id/fileLv"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/topLl"/>
+</RelativeLayout>
